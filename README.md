@@ -38,3 +38,10 @@ docker run -p 9092:9092 \
 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://192.168.220.114:9092 \
 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 \
 confluentinc/cp-kafka
+
+
+
+Doc to refer:
+https://kafka.js.org/docs/getting-started
+https://www.openlogic.com/blog/using-kafka-zookeeper
+https://zookeeper.apache.org/releases.html
